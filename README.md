@@ -1,12 +1,58 @@
-# React + Vite
+# Web Development Project 1 - SJSU Event Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 📝 Submitted by: Pranav Tadepu  
 
-Currently, two official plugins are available:
+### 🌐 Project Description  
+SJSU Event Board is a web application that displays upcoming events happening at **San Jose State University (SJSU)**. The application allows users to **view event details** and interact with event-specific actions such as **registering for events**, accessing more details, and exploring related activities.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project utilizes **React.js** and **React Router** to provide a smooth user experience for navigating between events and event details.
 
-## Expanding the ESLint configuration
+### ⏳ Time Spent: **5** hours spent in total
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✅ Required Features  
+The following **required** functionality is completed:
+
+- [x] **There is a unique theme for events relevant to the SJSU community**
+- [x] **At least 10 unique events are displayed in a responsive card format**
+
+## 🎉 Optional Features Implemented  
+- [x] **Each event card has a "More Details" button that dynamically displays more options**
+- [x] **Buttons allow users to interact with events (Register, Event Details, Other)**
+- [x] **The site is responsive and works on both desktop and mobile formats**
+
+## ✨ Additional Features  
+- [x] **Back button implementation for easy navigation between event pages**
+- [x] **Styled event cards with hover effects and interactive buttons**
+- [x] **Clean, modular component-based React architecture**
+
+---
+
+## 🎥 Video Walkthrough  
+Here's a walkthrough showcasing the implemented features:
+
+![Video Walkthrough](https://imgur.com/a/3F4F1Jr) 
+
+---
+
+## 🛠 Technologies Used  
+- **React.js** (Component-based UI development)
+- **JavaScript (ES6+)** (Logic implementation)
+- **CSS3 & Flexbox/Grid** (Responsive design)
+- **Vite** (React project setup & fast development)
+- **Git & GitHub** (Version control)
+
+---
+
+## 📝 Challenges & Learnings   
+
+- **Challenge:** Ensuring state management (`useState`) worked correctly for dynamically toggling event details.  
+  ✅ **Solution:** Used conditional rendering and state to **toggle visibility** of event buttons when clicking "More Details."  
+
+- **Challenge:** Making the app fully responsive on both **mobile and desktop screens**.  
+  ✅ **Solution:** Applied **CSS Grid/Flexbox** and media queries for a seamless layout on different screen sizes.
+
+---
+
+## 📜 License  
